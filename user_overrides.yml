@@ -6,7 +6,8 @@ generate_disks: true
 generate_checksums: true
 generate_local_vars: true
 make_num_jobs: 2
-
+custom_generate_menus: true
+custom_templates_dir: "{{ netbootxyz_conf_dir }}/custom"
 # set desired site name
 # site_name: mysitename.com
 
